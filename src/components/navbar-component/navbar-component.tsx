@@ -50,7 +50,7 @@ const NavbarComponent = () => {
             <div className={'flex items-center gap-7'}>
                 <Image src={'/icons/search.svg'} alt={'search'} width={24} height={24} className={'cursor-pointer'}/>
                 <Image src={'/icons/cart.svg'} alt={'cart'} width={24} height={24} className={'cursor-pointer'}/>
-                <Button>Sign in</Button>
+                <Button className={"gap-4"}> <Image src={'/icons/exit.svg'} alt={'exit'} width={15} height={17} className={'cursor-pointer'}/> <span>Sign in</span></Button>
             </div>
         </nav>
     );
